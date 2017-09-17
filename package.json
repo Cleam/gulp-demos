@@ -1,0 +1,24 @@
+{
+  "name": "gulp-demos",
+  "version": "1.0.0",
+  "description": "gulp-demos",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cleam/gulp-demos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cleam/gulp-demos/issues"
+  },
+  "homepage": "https://github.com/Cleam/gulp-demos#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1"
+  }
+}
