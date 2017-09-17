@@ -1,7 +1,13 @@
 h1 {
-  color: #f00;
-}
+  color: #333; }
 
 p {
-  color: #00f
-}
+  color: #00f; }
+
+.list .style-title {
+  color: #f00; }
+
+.list .style-list {
+  color: #666; }
+  .list .style-list .style-item {
+    font-size: 18px; }
