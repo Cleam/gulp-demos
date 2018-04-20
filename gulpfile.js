@@ -2,6 +2,7 @@ var gulp = require('gulp')
 var browserSync = require('browser-sync').create()
 var sass = require('gulp-ruby-sass')
 var sourcemaps = require('gulp-sourcemaps')
+var autoprefixer = require('gulp-autoprefixer')
 
 /* =================================
   demo1
@@ -56,6 +57,7 @@ gulp.task('sass', () => {
       includeContent: false,
       sourceRoot: 'src/scss'
     }))
+    .pipe(autoprefixer())
     .pipe(gulp.dest('src/css'))
     .pipe(browserSync.stream({match: '**/*.css'}))
 })
